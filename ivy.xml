@@ -7,6 +7,6 @@
         status="integration">
 	</info>
 	<dependencies>
-		<dependency org="pushmode" name="pushmode" rev="0.47" />
+		<dependency org="pushmode" name="pushmode" rev="latest.release" />
 	</dependencies>
 </ivy-module>
