@@ -2,6 +2,8 @@
 
 This is a simple demo application for [PushMode web framework](https://pushmode.angeloflogic.com/).
 
+![Screenshot](https://static.angeloflogic.com/images/pushmode/screenshots/helloworld.png)
+
 This project demonstrates minimal Hello World program using PushMode.
 
 It is designed to open in Eclipse with IvyDE plugin installed.
