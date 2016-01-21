@@ -8,5 +8,6 @@
 	</info>
 	<dependencies>
 		<dependency org="pushmode" name="pushmode" rev="latest.release" />
+		<dependency org="org.slf4j" name="slf4j-simple" rev="latest.release" />
 	</dependencies>
 </ivy-module>
