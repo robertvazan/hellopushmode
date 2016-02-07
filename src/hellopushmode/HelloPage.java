@@ -4,8 +4,8 @@ import pushmode.dom.*;
 import pushmode.html.*;
 import pushmode.server.*;
 
-// Our app has only one page. Let's declare a stream for it.
-public class HelloStream extends PushStream {
+// Every page is a class. Every page hit is a class instance.
+public class HelloPage extends PushPage {
 	// This is where we put our HTML "template".
 	@Override public DomElement document() {
 		// We can create new HTML elements through Html factory class.
