@@ -12,7 +12,7 @@ public class Main {
 			// PushMode is an application server, not a generic web server.
 			// Let nginx take port 80/443 and proxy connections to 8080.
 			.listen(8080)
-			// Map our only stream to the root URL.
+			// Map our only page to the root URL.
 			.map("/", HelloPage::new)
 			// Run until we get killed.
 			.run();

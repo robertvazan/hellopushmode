@@ -4,7 +4,7 @@ import pushmode.dom.*;
 import pushmode.html.*;
 import pushmode.server.*;
 
-// Every page is a class. Every page hit is a class instance.
+// Every distinct page on the site usually gets its own class.
 public class HelloPage extends PushPage {
 	// This is where we put our HTML "template".
 	@Override public DomElement document() {
