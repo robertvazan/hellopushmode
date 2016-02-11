@@ -2,7 +2,7 @@
 
 This is a simple demo application for [PushMode web framework](https://pushmode.angeloflogic.com/).
 
-![Screenshot](https://cdn.angeloflogic.com/images/pushmode/screenshots/helloworld.png)
+![Screenshot](https://cdn.angeloflogic.com/images/pushmode/screenshots/helloworld2.png)
 
 This project demonstrates minimal Hello World program using PushMode.
 
