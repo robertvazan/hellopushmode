@@ -1,6 +1,6 @@
 package hellopushmode;
 
-import pushmode.server.*;
+import pushmode.*;
 
 public class Main {
 	// PushMode politely leaves main() method in our hands.
