@@ -14,17 +14,17 @@ public class HelloPage extends PushPage {
 			.add(Html.head()
 				// Insert link to pushmode.js, which makes all the PushMode magic happen.
 				.setupPushMode()
+				.add(Html.link()
+					// Attributes are set through a chain of fluent setters.
+					.rel("stylesheet")
+					.type("text/css")
+					.href("http://localhost:8082/styles/style.css"))
 				.add(Html.title()
 					// Method text() will append inline text to the element.
 					.text("Hello World")))
 			.add(Html.body()
-				// Attributes are set through a chain of fluent setters.
-				.style("margin: 0; padding: 0; font-family: sans-serif")
 				.add(Html.div()
-					// We would normally reference CSS stylesheet, but let's keep it simple for now. 
-					.style("display: flex; height: 100vh; justify-content: center; align-items: center")
 					.add(Html.p()
-						.style("font-size: 14vw")
 						.text("Hello World!"))));
 	}
 }
