@@ -14,7 +14,7 @@ public class Main {
 		// It listens on port 8080 by default.
 		PushServer
 			// Login to PushMode cloud. We will need this later.
-			.login("beta-till-may31")
+			.login("beta-till-jun30")
 			// Map our only page to the root URL.
 			.map("/", HelloPage::new)
 			// Run until the process is killed.
