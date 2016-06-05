@@ -2,7 +2,6 @@ package hellopushmode;
 
 import pushmode.*;
 import pushmode.dom.*;
-import pushmode.html.*;
 
 // Every distinct page on the site usually gets its own class.
 public class HelloPage extends PushPage {
