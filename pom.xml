@@ -39,7 +39,7 @@
         <enabled>false</enabled>
       </snapshots>
       <id>pushmode</id>
-      <url>https://cdnedge.angeloflogic.com/maven/releases</url>
+      <url>https://cdnedge.angeloflogic.com/maven</url>
     </repository>
   </repositories>
 
@@ -52,7 +52,7 @@
     <dependency>
     	<groupId>pushmode</groupId>
     	<artifactId>pushmode</artifactId>
-    	<version>0.131</version>
+    	<version>0.135</version>
     </dependency>
   </dependencies>
 </project>
