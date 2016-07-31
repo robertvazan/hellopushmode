@@ -13,8 +13,9 @@ public class Main {
 		// PushMode server is a mere library.
 		// It listens on port 8080 by default.
 		PushServer
-			// Login to PushMode cloud. We will need this later.
-			.login("beta-till-jul31")
+			// Trial key is free and it's good enough for development.
+			// You can get production keys at pushmode.angeloflogic.com.
+			.login("trial")
 			// Map our only page to the root URL.
 			.map("/", HelloPage::new)
 			// Run until the process is killed.
