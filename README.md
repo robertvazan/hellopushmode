@@ -1,6 +1,6 @@
 # Hello World demo for PushMode
 
-This is a simple demo application for [PushMode web framework](https://pushmode.angeloflogic.com/).
+This is a simple demo application for [PushMode web framework](https://pushmode.machinezoo.com/).
 
 ![Screenshot](https://cdn.machinezoo.com/images/pushmode/screenshots/helloworld2.png)
 

@@ -14,7 +14,7 @@ public class Main {
 		// It listens on port 8080 by default.
 		PushServer
 			// Trial key is free and it's good enough for development.
-			// You can get production keys at pushmode.angeloflogic.com.
+			// You can get production keys at pushmode.machinezoo.com.
 			.login("trial")
 			// Map our only page to the root URL.
 			.map("/", HelloPage::new)
